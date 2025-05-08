@@ -9,15 +9,15 @@ This plugin is a wrapper for the [Android library for ESC/POS Thermal Printer](h
 
 #### Cordova
 
-    $ cordova plugin add thermal-printer-cordova-plugin
+    $ cordova plugin add https://github.com/magancete/thermal-printer-cordova-plugin.git
 
 #### Ionic
 
-    $ ionic cordova plugin add thermal-printer-cordova-plugin
+    $ ionic cordova plugin add https://github.com/magancete/thermal-printer-cordova-plugin.git
 
 #### Capacitor
 
-    $ npm install thermal-printer-cordova-plugin
+    $ npm install https://github.com/magancete/thermal-printer-cordova-plugin.git
     $ npx cap sync
 
 Don't forget to add BLUETOOTH and INTERNET (for TCP) permissions and for USB printers the `android.hardware.usb.host` feature to the `AndroidManifest.xml`.
